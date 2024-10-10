@@ -1,3 +1,5 @@
+
+# laget med vscode extentionen 
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -6,9 +8,11 @@ __pycache__/
 # C extensions
 *.so
 
-__pycache__/
-snake/
+
+# my python venv 
+snake/ 
 # Distribution / packaging
+__pycache__/
 .Python
 build/
 develop-eggs/

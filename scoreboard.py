@@ -3,7 +3,10 @@ import csv
 
 app = Flask(__name__)
 
-def read_scoreboard():
+# låns inspirasjon og deler av fra stackoverflow og flask scoreboard se README.md 
+# har også litt erfaring med flask fra tidligere prosjekter
+
+def read_scoreboard(): 
     scoreboard = []
     with open('comp/scoreboard.csv', 'r') as csvfile:
         reader = csv.DictReader(csvfile)

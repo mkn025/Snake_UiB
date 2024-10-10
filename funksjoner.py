@@ -3,14 +3,14 @@ from random import randint
 import csv
 
 
-def write_to_csv(file_path, row):
+def write_to_csv(file_path, row): # lånt inspirasjon og deler av kode fra stackoverflow se README.md
     with open(file_path, 'a', newline='') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(row)
     
 
 
-def sort_scoreboard(file_path):
+def sort_scoreboard(file_path): # lånt inspirasjon og deler av kode fra stackoverflow se README.md
     with open(file_path, 'r') as csvfile:
         reader = csv.DictReader(csvfile)
         sortedlist = sorted(reader, key=lambda row: int(row['score']), reverse=True)
@@ -43,7 +43,7 @@ def dark_mode(mode:bool,color_white=DEFULT_WHITE,color_black=DEFULT_BLACK):
     if mode == False:
         return color_white
     else:
-        return color_black # fake black
+        return color_black # fake black vs code black. it it important.
     
 def font_mode_dark_mode(mode:bool,color_white=DEFULT_WHITE,color_black=DEFULT_BLACK):
     if mode == False:

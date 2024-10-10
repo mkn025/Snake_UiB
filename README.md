@@ -40,14 +40,22 @@ Du finner den vanligvis på [http://127.0.0.1:5000/](http://127.0.0.1:5000/). al
 
 
 ## kilder
+
 - [https://stackoverflow.com/questions/2363731/how-to-append-a-new-row-to-an-old-csv-file-in-python](https://stackoverflow.com/questions/2363731/how-to-append-a-new-row-to-an-old-csv-file-in-python) 
 
-tok litt insp herfra for å se hvordan forspørsler ble håndtert osv.
+Tok litt inspiasjon herfra for å se hvordan forspørsler ble håndtert osv.
 - [https://github.com/vindruid/flask_leaderboard](https://github.com/vindruid/flask_leaderboard)
 - [https://www.geeksforgeeks.org/uploading-and-reading-a-csv-file-in-flask/](https://www.geeksforgeeks.org/uploading-and-reading-a-csv-file-in-flask/)
-for å lage tablet der vi ser scoreboardet 
+- [https://youtu.be/SLftzEqoLPk?si=JbVaNlXtv0wa-157](https://youtu.be/SLftzEqoLPk?si=JbVaNlXtv0wa-157)
+
+For å lage tablet der vi ser scoreboardet 
 - [https://getbootstrap.com/docs/4.1/content/tables/](https://getbootstrap.com/docs/4.1/content/tables/)
 
+For og sortere csv filene.
+- [https://stackoverflow.com/questions/2100353/sort-csv-by-column](https://stackoverflow.com/questions/2100353/sort-csv-by-column)
+
+Fonten jeg bukte
+- [Font: game_over.tff](https://www.dafont.com/game-over.font)
 
 
 
