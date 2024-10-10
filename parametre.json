@@ -1,0 +1,18 @@
+
+
+{
+    "backend_load":true,
+    "width":1000,
+    "height": 800,
+    "speed": 300,
+    "ruter" : 75,
+    "difficulty": 1,
+    "dark_mode": false,
+    "defult_white": "white",
+    "defult_black": "#1F1F1F",
+    "snake_color": "green",
+    "food_color": "red"
+    
+}
+
+
