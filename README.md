@@ -1,13 +1,14 @@
 
 
 # Lab 5: Snake
-- snake spill med mulighet for å hoste sitt egen scoreboard ved hjelp av flask og noen bootstarp componeter
+- snake spill med mulighet for å hoste sitt eget scoreboard ved hjelp av flask og noen bootstarp componeter
 - behold `backend_load: false` dersom du bare ønsker spillet.
 
 
 ## Krav
 - Python 3.12
-- Pygame uib-inf100-graphics 
+- uib-inf100-graphics
+- Flask (bare nødvednig om du skal se scoreboard)
 - game_over.tff # ikke nødvindig, men anbefaler for en bedre opplevelse
 
 
