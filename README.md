@@ -25,11 +25,13 @@ For å starte spillet, kjør følgende kommando:
     python3 snake_main.py
 ```
 
-dersom du ønsker å start scoreboard(frivillig)
+Dersom du ønsker å start scoreboard(frivillig)
 For å aktivere scoreboard, sett `backend_load: true` i `parametre.json` filen. 
 ```bash
     python3 scoreboard.py
 ```
+Deretter kan du navigere til til netsiden som kommer opp i terminalen for å se.
+Du finner den vanligvis på [http://127.0.0.1:5000/](http://127.0.0.1:5000/). altså din localhost og port 5000
 
 ## Spillkontroller
 - Trykk `i` for å få info om kontrollerne osv.
