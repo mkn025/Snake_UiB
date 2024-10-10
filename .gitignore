@@ -6,7 +6,8 @@ __pycache__/
 # C extensions
 *.so
 
-/snake
+__pycache__/
+snake/
 # Distribution / packaging
 .Python
 build/
