@@ -7,8 +7,8 @@ def move_snake(app):
     
     if is_legal(app.head_pos,app.board) == False:
         app.state = "gameover"
-        write_to_csv("comp/scoreboard.csv",[navn,app.score]) if LOAD_BACKEND == True else  None
-        sort_scoreboard("comp/scoreboard.csv") if LOAD_BACKEND == True else  None
+        write_to_csv("CSV_DATA/scoreboard.csv",[navn,app.score]) if LOAD_BACKEND == True else  None
+        sort_scoreboard("CSV_DATA/scoreboard.csv") if LOAD_BACKEND == True else  None
         
         
     if app.state == "active":
