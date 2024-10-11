@@ -149,18 +149,18 @@ def redraw_all(app, canvas):
     elif app.state == "start":
         canvas.create_rectangle(0, 0, WIDTH, HEIGHT, fill=dark_mode(DARKMODE))
         
-        canvas.create_text(WIDTH/2, (HEIGHT/2)-200, text="Snake", font=("Game over", 300, "bold"), fill="cyan")
+        canvas.create_text(WIDTH/2, (HEIGHT/2)-220, text="Snake", font=("Game over", 300), fill="cyan")
         canvas.create_text(WIDTH/2, (HEIGHT/2)-100, text="Press S to start ", font=("Game over",200), fill=font_mode_dark_mode(DARKMODE))
         canvas.create_text(WIDTH/2, (HEIGHT/2), text="Press  I  for info", font=("Game over", 100), fill="red")
         canvas.create_text(WIDTH/2, (HEIGHT/2)+100, text="Press  O  for options", font=("Game over", 100), fill="red")
         canvas.create_text(WIDTH/2, (HEIGHT/2)+200, text="Press 1 for difficulty 1", font=("Game over", 50), fill="red")
         canvas.create_text(WIDTH/2, (HEIGHT/2)+250, text="Press 2 for difficulty 2", font=("Game over", 50), fill="red")
         canvas.create_text(WIDTH/2, (HEIGHT/2)+300, text="Press 3 for difficulty 3", font=("Game over", 50), fill="red")   
-        canvas.create_text((WIDTH/2), (HEIGHT/2)+350, text=f"Difficulty: {VANNSKELIGHETSGRAD}", font=("Game over", 50, "bold"), fill="cyan")
+        canvas.create_text((WIDTH/2), (HEIGHT/2)+350, text=f"Difficulty: {VANNSKELIGHETSGRAD}", font=("Game over", 50), fill="cyan")
 
     elif app.state ==  "gameover":
         canvas.create_rectangle(0, 0, WIDTH, HEIGHT, fill=dark_mode(DARKMODE))
-        canvas.create_text(WIDTH/2, (HEIGHT/2)-200, text="Game Over", font=("Game over", 300, "bold"), fill=font_mode_dark_mode(DARKMODE))
+        canvas.create_text(WIDTH/2, (HEIGHT/2)-200, text="Game Over", font=("Game over", 300), fill=font_mode_dark_mode(DARKMODE))
         canvas.create_text(WIDTH/2, (HEIGHT/2), text=f"Score: {app.score}", font=("Game over", 100), fill="cyan")
         canvas.create_text(WIDTH/2, (HEIGHT/2)+200, text="Press R to restart", font=("Game over", 100), fill="red")
         
