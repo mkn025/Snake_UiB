@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 def read_scoreboard(): 
     scoreboard = []
-    with open('comp/scoreboard.csv', 'r') as csvfile:
+    with open('CSV_DATA/scoreboard.csv', 'r') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             scoreboard.append(row)
