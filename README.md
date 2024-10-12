@@ -9,7 +9,7 @@
 - Python 3.12
 - uib-inf100-graphics
 - Flask (bare nødvednig om du skal se scoreboard)
-- game_over.tff # ikke nødvindig, men anbefaler for en bedre opplevelse
+- game_over.tff # ikke nødvindig, men anbefaler for en bedre opplevelse. Om ikke kan skriften bli veldig stor og uproposjonal
 
 
 ## Installasjon
